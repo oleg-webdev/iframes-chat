@@ -1,1 +1,16 @@
 // Global styles, rules, vars e.t.c.
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:global {
+  .iframeHandler {
+    padding: 0 30px;
+    display: flex;
+    > div {
+      flex-basis: 50%;
+    }
+  }
+}

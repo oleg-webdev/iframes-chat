@@ -8,7 +8,7 @@ import { AppContainer } from 'react-hot-loader';
 
 // Redux
 import { Provider } from 'react-redux';
-import store from './store/';
+import store from './store';
 import '../css/style.scss';
 import AppEntry from './components/AppEntry';
 

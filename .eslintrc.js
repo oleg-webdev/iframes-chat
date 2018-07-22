@@ -31,6 +31,7 @@ module.exports = {
   },
   "parser": "babel-eslint",
   "globals": {
+    "alert": true,
     "window": true,
     "document": true,
     "navigator": true,

@@ -1,5 +1,6 @@
 const localSettings = store => next => (action) => {
-  // sessionStorage
+  // maybe app wanna to store redux state to local/session storage,
+  // so, this is a good place to make it happen
   window.localStorage.setItem(
     'appLocalSettings',
     JSON.stringify(store.getState()),

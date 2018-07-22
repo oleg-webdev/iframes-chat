@@ -17,7 +17,7 @@ export const detachClient = (client) => {
   return (dispatch) => {
     setTimeout(() => {
       dispatch(clientData(client));
-    }, 700);
+    }, 500);
   };
 };
 
